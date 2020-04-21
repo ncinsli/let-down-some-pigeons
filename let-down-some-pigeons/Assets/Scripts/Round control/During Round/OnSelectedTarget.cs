@@ -23,7 +23,6 @@ public class OnSelectedTarget : MonoBehaviour{
         stoneScript = stone.GetComponent<StoneScript>();
         stoneSpriteRenderer = stone.GetComponent<SpriteRenderer>();
         stoneRigidbody = stone.GetComponent<Rigidbody2D>();
-        axis = player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x);
         roundEnd = GetComponent<OnRoundEnded>();
 
         stoneSpeed = pointer.speed;
@@ -37,10 +36,14 @@ public class OnSelectedTarget : MonoBehaviour{
         foreach (GameObject obj in resultGameObjectsOnFail) obj.SetActive(true);
     }
 
+    private void FixedUpdate(){
+        axis = player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x);
+    }
+
     public void onSelectedTarget(){
         stoneSpriteRenderer.enabled = true;
         stoneRigidbody.bodyType = RigidbodyType2D.Dynamic;
-        stone.transform.position = player.transform.position + Vector3.right * axis;
-        stoneScript.Shoot((pointer.transform.position - player.transform.position) * axis);
+        stone.transform.position = player.transform.position * axis + Vector3.right * axis;
+        stoneScript.Shoot(pointer.transform.position - player.transform.position);
     }
 }

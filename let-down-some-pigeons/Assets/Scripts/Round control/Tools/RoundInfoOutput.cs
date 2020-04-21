@@ -8,7 +8,7 @@ public class RoundInfoOutput : MonoBehaviour{
     
     private Text labelToOutput;
 
-    void Start(){
+    private void Start(){
         labelToOutput = GetComponent<Text>();    
     }
 

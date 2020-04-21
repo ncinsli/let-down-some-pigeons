@@ -586,7 +586,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -256
   m_Sprite: {fileID: 21300134, guid: 3f13795f01f3c6848bc5779c8e79c668, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6}
   m_FlipX: 0
@@ -1538,6 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d672ed1ab47637429c001cabfeec46a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1909150012}
   didShoot: 0
   pointer: {fileID: 1770575081}
   resultShower: {fileID: 1630008272}
@@ -1915,7 +1916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755916665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.9642825, y: -4.0744467, z: -4.9921875}
+  m_LocalPosition: {x: 7.98, y: -3.47, z: -4.9921875}
   m_LocalScale: {x: 0.213, y: 0.213, z: 0.213}
   m_Children: []
   m_Father: {fileID: 506662771}
@@ -5733,5 +5734,6 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6124322111448923192, guid: 6179d25602a5bed4ca0756cdbbe9e703, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6179d25602a5bed4ca0756cdbbe9e703, type: 3}

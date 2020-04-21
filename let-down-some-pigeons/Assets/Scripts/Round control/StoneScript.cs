@@ -11,6 +11,7 @@ public class StoneScript : MonoBehaviour{
     private float axis;
     private bool didShowWindow = false;
 
+    public Transform player;
     public bool didShoot = false;
     public GameObject pointer;
     public OnSelectedTarget resultShower; //Этот скрипт отвечает за показ результата
@@ -23,12 +24,17 @@ public class StoneScript : MonoBehaviour{
         
         spriteRenderer.enabled = false;
         rigidbody.bodyType = RigidbodyType2D.Static;
+        axis = player.localScale.x / Mathf.Abs(player.localScale.x);
     }
 
     public void Shoot(Vector2 force){
-        rigidbody.AddForce(force * 100f);
+        rigidbody.AddForce(force * 100f * axis);
         Debug.Log(force);
         didShoot = true;
+    }
+
+    private void Update(){
+        axis = player.localScale.x / Mathf.Abs(player.localScale.x);
     }
 
     private void OnCollisionEnter2D(Collision2D collision){
