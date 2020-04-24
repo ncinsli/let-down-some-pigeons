@@ -4,18 +4,18 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(Rigidbody2D))]
-//[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Animator))]
 public class PlayerAnimation : MonoBehaviour{
     
     private Animator playerAnimator;
     
     public MoveObjects objectMover; //MoveObjects компонент в геймконтроллере
 
-    void Start(){
+    private void Start(){
         playerAnimator = GetComponent<Animator>();
     }
 
-    void FixedUpdate(){
+    private void FixedUpdate(){
         if (!objectMover.isMoving && !objectMover.isFlying)
             playerAnimator.SetInteger("AnimationId", 0);
         else if (!objectMover.isFlying) 
