@@ -26,7 +26,6 @@ public class OnRoundEnded : MonoBehaviour{
     }
 
     private void FixedUpdate(){
-        axis = player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x);    
         if (roundHandler.roundTime < 0 && pointTime > 0){
             pointTime -= Time.deltaTime;   
             titles[0].SetText($"Стреляйте\n у вас {Mathf.Round(pointTime)} секунд"); 
@@ -38,7 +37,7 @@ public class OnRoundEnded : MonoBehaviour{
 
     public void onRoundEnded(){
         
-        stone.transform.position = player.transform.position + Vector3.right * axis;
+        stone.transform.position = player.transform.position + Vector3.right * (player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x));
         pointer.RenderBySpeed(pointer.speed);
 
         foreach (GameObject obj in buttonsToDisable) obj.SetActive(false);

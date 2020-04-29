@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Round control\StoneScript.cs" />
      <Compile Include="Assets\Scripts\Round control\Tools\ResultShower.cs" />
      <Compile Include="Assets\Scripts\Round control\Tools\RoundInfoOutput.cs" />
+     <Compile Include="Assets\Scripts\Spikes.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/let down some pigeons/let-down-some-pigeons/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

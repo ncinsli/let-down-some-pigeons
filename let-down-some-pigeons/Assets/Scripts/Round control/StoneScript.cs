@@ -28,16 +28,12 @@ public class StoneScript : MonoBehaviour{
     }
 
     public void Shoot(Vector2 force){
-        rigidbody.AddForce(force * 100f * axis);
+        rigidbody.AddForce(force * 170f * (player.localScale.x / Mathf.Abs(player.localScale.x)));
         Debug.Log(force);
         didShoot = true;
     }
 
-    private void Update(){
-        axis = player.localScale.x / Mathf.Abs(player.localScale.x);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision){
+    private void CollisionHandler(Collision2D collision){
         if(didShoot && !didShowWindow){
             if (collision.gameObject.CompareTag("Enemy")){
                 Destroy(collision.gameObject);
@@ -52,4 +48,6 @@ public class StoneScript : MonoBehaviour{
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision) => CollisionHandler(collision);
+    private void OnCollisionStay2D(Collision2D collision) => CollisionHandler(collision);
 }
