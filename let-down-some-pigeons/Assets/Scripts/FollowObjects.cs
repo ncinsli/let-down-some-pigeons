@@ -13,6 +13,8 @@ public class FollowObjects : MonoBehaviour{
     public bool useX = true;
     public bool useY = true;
     public float minHeight = 3.76f;
+    public float zCamCoord = -10f;
+    
     void Awake(){
         Application.targetFrameRate = 300;
     }
@@ -20,13 +22,13 @@ public class FollowObjects : MonoBehaviour{
     void FixedUpdate(){
         float fixedTargetY = Mathf.Clamp(targetTransform.position.y, minHeight-0.2f,1000);
         if (useX && useY)
-            fixedTarget = new Vector3(targetTransform.position.x, fixedTargetY, transform.position.z);
+            fixedTarget = new Vector3(targetTransform.position.x, fixedTargetY, zCamCoord);
         if (!useX && !useY)
             fixedTarget = transform.position;
         if (!useX && useY)
-            fixedTarget = new Vector3(transform.position.x, fixedTargetY, transform.position.z);
+            fixedTarget = new Vector3(transform.position.x, fixedTargetY, zCamCoord);
         if (useX && !useY)
-            fixedTarget = new Vector3(targetTransform.position.x, fixedTargetY, transform.position.z);
+            fixedTarget = new Vector3(targetTransform.position.x, fixedTargetY, zCamCoord);
         
         Vector3 finalVector = Vector3.Lerp(transform.position, fixedTarget, delta);
         transform.position = finalVector;

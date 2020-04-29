@@ -43,7 +43,7 @@ public class OnSelectedTarget : MonoBehaviour{
     public void onSelectedTarget(){
         stoneSpriteRenderer.enabled = true;
         stoneRigidbody.bodyType = RigidbodyType2D.Dynamic;
-        stone.transform.position = player.transform.position + Vector3.right * axis;
+        stone.transform.position = player.transform.position + Vector3.right *1.1f* axis;
         stoneScript.Shoot(pointer.transform.position - player.transform.position);
     }
 }
