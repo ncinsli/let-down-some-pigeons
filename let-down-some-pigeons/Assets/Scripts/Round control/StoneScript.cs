@@ -33,10 +33,10 @@ public class StoneScript : MonoBehaviour{
     }
 
     public void Shoot(Vector2 force){
-        rigidbody.AddForce(force * 170f * (player.localScale.x / Mathf.Abs(player.localScale.x)));
+        rigidbody.AddForce(force * 1500f * Mathf.Pow(Time.deltaTime,1f) * (player.localScale.x / Mathf.Abs(player.localScale.x)));
+        rigidbody.gravityScale = Time.deltaTime;
         Debug.Log(force);
         didShoot = true;
-        objectFollower.enabled = false;
         Time.timeScale = 1f;
         magnitudeOnStart = (enemy.position - transform.position).magnitude;
     }
@@ -44,11 +44,9 @@ public class StoneScript : MonoBehaviour{
     private void FixedUpdate(){
         axis = player.localScale.x / Mathf.Abs(player.localScale.x);
         if (didShoot && !didShowWindow){
-            Debug.Log(1f/Time.fixedDeltaTime);
-            Vector2 direction = enemy.position - transform.position;
-            Debug.DrawRay(transform.position, direction);
-            float currentZ = Mathf.Lerp(-10f, -6f, 1f-direction.magnitude/magnitudeOnStart);
-            camera.transform.position = new Vector3(transform.position.x, transform.position.y, currentZ);
+            objectFollower.zCamCoord = -7f; //-10 - стандартная, 0- вплотную
+
+            objectFollower.targetTransform = transform;
         }
     }
 
@@ -57,6 +55,7 @@ public class StoneScript : MonoBehaviour{
         Time.timeScale = 1f;
         if(didShoot && !didShowWindow){
             if (collision.gameObject.CompareTag("Enemy")){
+                objectFollower.targetTransform = player.transform;
                 Destroy(collision.gameObject);
                 resultShower.ShowWinResult();
                 gotToEnemy = true;

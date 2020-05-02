@@ -35,12 +35,15 @@ public class OnRoundEnded : MonoBehaviour{
         }
     }
 
+    public void DisableButtons(GameObject[] buttonsToDisable){
+        foreach (GameObject obj in buttonsToDisable) obj.SetActive(false);
+    }
+
     public void onRoundEnded(){
         
         stone.transform.position = player.transform.position + Vector3.right * (player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x));
         pointer.RenderBySpeed(pointer.speed);
-
-        foreach (GameObject obj in buttonsToDisable) obj.SetActive(false);
+        DisableButtons(buttonsToDisable);
         foreach (GameObject obj in buttonsToEnable) obj.SetActive(true);
         
         titles[1].SetText("Время истекло");
