@@ -47,7 +47,7 @@ android {
             abiFilters 'armeabi-v7a', 'x86'
         }
         versionCode 1
-        versionName '1.4'
+        versionName '1.42 rev 4'
     }
 
     lintOptions {

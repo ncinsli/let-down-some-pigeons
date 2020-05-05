@@ -3,7 +3,7 @@
     package="com.FiftyFiveDev.ldsp"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="1.4" >
+    android:versionName="1.42 rev 4" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -58,7 +58,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="729417b2-8952-441e-94bb-e2e94c4e8b2a" />
+            android:value="f45bb43e-fc88-4ce8-ac24-93c444a877ed" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

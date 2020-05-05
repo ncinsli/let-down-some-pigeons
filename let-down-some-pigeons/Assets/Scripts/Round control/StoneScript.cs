@@ -10,9 +10,11 @@ public class StoneScript : MonoBehaviour{
     private SpriteRenderer spriteRenderer;
     private float axis;
     private bool didShowWindow = false;
-    private float magnitudeOnStart;
     private Transform camera;
 
+    [Range(0,5f)] public float delayTime = 1.1f;
+    public GameObject shootButton;
+    public OnRoundEnded roundEndController;
     public FollowObjects objectFollower;
     public Transform player;
     public Transform enemy;
@@ -20,6 +22,7 @@ public class StoneScript : MonoBehaviour{
     public GameObject pointer;
     public OnSelectedTarget resultShower; //Этот скрипт отвечает за показ результата
     public bool gotToEnemy = false; 
+
 
     private void Start(){
         rigidbody = GetComponent<Rigidbody2D>();
@@ -33,12 +36,12 @@ public class StoneScript : MonoBehaviour{
     }
 
     public void Shoot(Vector2 force){
-        rigidbody.AddForce(force * 1500f * Mathf.Pow(Time.deltaTime,1f) * (player.localScale.x / Mathf.Abs(player.localScale.x)));
-        rigidbody.gravityScale = Time.deltaTime;
+        rigidbody.AddForce(force * 1200f * Mathf.Pow(Time.deltaTime,1f) * (player.localScale.x / Mathf.Abs(player.localScale.x)));
+        rigidbody.gravityScale = Time.deltaTime * 1f;
         Debug.Log(force);
         didShoot = true;
         Time.timeScale = 1f;
-        magnitudeOnStart = (enemy.position - transform.position).magnitude;
+        roundEndController.DisableButtons(new GameObject[] {shootButton});
     }
 
     private void FixedUpdate(){
@@ -50,21 +53,31 @@ public class StoneScript : MonoBehaviour{
         }
     }
 
+    private void ShowWinResultAdapter(){ 
+        Debug.Log("Starting function ShowWinResultAdapter...");
+        resultShower.ShowWinResult();
+        Destroy(gameObject);
+    }
 
     private void CollisionHandler(Collision2D collision){
         Time.timeScale = 1f;
         if(didShoot && !didShowWindow){
             if (collision.gameObject.CompareTag("Enemy")){
-                objectFollower.targetTransform = player.transform;
-                Destroy(collision.gameObject);
-                resultShower.ShowWinResult();
+                var enemyAnimator = collision.gameObject.GetComponent<Animator>();
+                spriteRenderer.enabled = false;
                 gotToEnemy = true;
+                pointer.GetComponent<SpriteRenderer>().enabled = false;
+                objectFollower.targetTransform = collision.gameObject.transform;
+
+                enemyAnimator.SetInteger("AnimationId", 1);
+                Invoke("ShowWinResultAdapter", delayTime);
             }
             else if (!collision.gameObject.CompareTag("Player")){
+                objectFollower.targetTransform = collision.gameObject.transform;
                 resultShower.ShowFailResult();
+                Destroy(gameObject);
             }
             didShoot = true;
-            Destroy(gameObject);
         }
     }
 
