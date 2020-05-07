@@ -18,11 +18,13 @@ public class OnRoundEnded : MonoBehaviour{
     private float axis;
     private RoundHandler roundHandler;
     private OnSelectedTarget onSelectedTarget;
+    private MoveObjects playerMover;
 
     private void Start(){
         stoneScript = stone.GetComponent<StoneScript>();        
         roundHandler = GetComponent<RoundHandler>();
         onSelectedTarget = GetComponent<OnSelectedTarget>();
+        playerMover = GetComponent<MoveObjects>();
     }
 
     private void FixedUpdate(){
@@ -40,7 +42,9 @@ public class OnRoundEnded : MonoBehaviour{
     }
 
     public void onRoundEnded(){
-        
+        playerMover.isMoving = false;
+        playerMover.isFlying = false;
+
         stone.transform.position = player.transform.position + Vector3.right * (player.transform.localScale.x / Mathf.Abs(player.transform.localScale.x));
         pointer.RenderBySpeed(pointer.speed);
         DisableButtons(buttonsToDisable);
