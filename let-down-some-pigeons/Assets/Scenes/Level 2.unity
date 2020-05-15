@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 47.7
+  roundTime: 10
   player: {fileID: 1714757658}
   stone: {fileID: 609227845}
   timeTitle: {fileID: 522142334}
@@ -1935,6 +1935,7 @@ GameObject:
   - component: {fileID: 580702021}
   - component: {fileID: 580702020}
   - component: {fileID: 580702022}
+  - component: {fileID: 580702023}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -2041,6 +2042,21 @@ PolygonCollider2D:
       - {x: 0.71223193, y: -0.63535297}
       - {x: 0.7731108, y: -0.5744741}
       - {x: 0.6968964, y: -0.50417686}
+--- !u!114 &580702023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580702019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1714757660}
+  resultShower: {fileID: 133156696}
+  enemyAnimator: {fileID: 1150521151}
 --- !u!1001 &607583033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4123,6 +4139,7 @@ GameObject:
   - component: {fileID: 874853299}
   - component: {fileID: 874853301}
   - component: {fileID: 874853300}
+  - component: {fileID: 874853302}
   m_Layer: 0
   m_Name: environment_24 (3)
   m_TagString: Untagged
@@ -4227,6 +4244,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &874853302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874853298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1714757660}
+  resultShower: {fileID: 133156696}
+  enemyAnimator: {fileID: 1150521151}
 --- !u!1001 &897167400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6627,6 +6659,7 @@ GameObject:
   - component: {fileID: 1221990532}
   - component: {fileID: 1221990531}
   - component: {fileID: 1221990533}
+  - component: {fileID: 1221990534}
   m_Layer: 0
   m_Name: environment_24 (1)
   m_TagString: Untagged
@@ -6731,6 +6764,21 @@ PolygonCollider2D:
       - {x: 0.71223193, y: -0.63535297}
       - {x: 0.7731108, y: -0.5744741}
       - {x: 0.7731108, y: -0.45271626}
+--- !u!114 &1221990534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221990530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1714757660}
+  resultShower: {fileID: 133156696}
+  enemyAnimator: {fileID: 1150521151}
 --- !u!1 &1244656563
 GameObject:
   m_ObjectHideFlags: 0
@@ -8376,7 +8424,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 0.1
+            m_FloatArgument: 0.11
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -9258,7 +9306,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 0.1
+            m_FloatArgument: 0.11
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -11105,6 +11153,7 @@ GameObject:
   - component: {fileID: 1977067035}
   - component: {fileID: 1977067034}
   - component: {fileID: 1977067036}
+  - component: {fileID: 1977067037}
   m_Layer: 0
   m_Name: environment_24 (2)
   m_TagString: Untagged
@@ -11209,6 +11258,21 @@ PolygonCollider2D:
       - {x: 0.71223193, y: -0.63535297}
       - {x: 0.7731108, y: -0.5744741}
       - {x: 0.7731108, y: -0.45271626}
+--- !u!114 &1977067037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977067033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1714757660}
+  resultShower: {fileID: 133156696}
+  enemyAnimator: {fileID: 1150521151}
 --- !u!1 &1979195045
 GameObject:
   m_ObjectHideFlags: 0
