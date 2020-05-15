@@ -6236,7 +6236,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 0.1
+            m_FloatArgument: 0.11
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -7050,7 +7050,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 0.1
+            m_FloatArgument: 0.11
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -7783,7 +7783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 10
+  roundTime: 6.2
   player: {fileID: 1909150008}
   stone: {fileID: 659521174}
   timeTitle: {fileID: 1828548595}
