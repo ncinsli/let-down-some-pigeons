@@ -503,6 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &27888698
 PolygonCollider2D:
@@ -1167,6 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &65394186
 PolygonCollider2D:
@@ -1533,6 +1535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &91479065
 PolygonCollider2D:
@@ -1662,6 +1665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &91535642
 PolygonCollider2D:
@@ -1948,6 +1952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &123755522
 PolygonCollider2D:
@@ -5465,6 +5470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &388184428
 PolygonCollider2D:
@@ -6233,6 +6239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &441676371
 PolygonCollider2D:
@@ -6922,7 +6929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &470507752
 GameObject:
@@ -7049,6 +7056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &473121155
 PolygonCollider2D:
@@ -7414,7 +7422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &492606684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7428,6 +7436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 752657970}
+  resultShower: {fileID: 1877772975}
   enemyAnimator: {fileID: 1176563670}
 --- !u!60 &492606685
 PolygonCollider2D:
@@ -7763,6 +7772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &501755750
 PolygonCollider2D:
@@ -8411,6 +8421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &521648758
 PolygonCollider2D:
@@ -8794,6 +8805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &551040192
 PolygonCollider2D:
@@ -10071,6 +10083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &663778925
 PolygonCollider2D:
@@ -11081,7 +11094,7 @@ Transform:
   m_Children:
   - {fileID: 460362480}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &752657969
 MonoBehaviour:
@@ -13320,6 +13333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &874816701
 PolygonCollider2D:
@@ -13594,7 +13608,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888857875
 GameObject:
@@ -13793,6 +13807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &898140936
 PolygonCollider2D:
@@ -15619,6 +15634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &990967320
 PolygonCollider2D:
@@ -16036,6 +16052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1025883999
 PolygonCollider2D:
@@ -16424,6 +16441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1040494187
 PolygonCollider2D:
@@ -19327,7 +19345,7 @@ Transform:
   - {fileID: 594325082}
   - {fileID: 65392670}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1232886122
 PrefabInstance:
@@ -20073,7 +20091,7 @@ RectTransform:
   - {fileID: 804952913}
   - {fileID: 1118416574}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22834,6 +22852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1630504316
 PolygonCollider2D:
@@ -23336,6 +23355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1656004308
 PolygonCollider2D:
@@ -23465,6 +23485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1663359121
 PolygonCollider2D:
@@ -23775,6 +23796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1708981816
 PolygonCollider2D:
@@ -24180,6 +24202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1722871856
 PolygonCollider2D:
@@ -24515,6 +24538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1744316331
 PolygonCollider2D:
@@ -25010,6 +25034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1781245906
 PolygonCollider2D:
@@ -25139,6 +25164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1782096072
 PolygonCollider2D:
@@ -25374,6 +25400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1783631796
 PolygonCollider2D:
@@ -25795,6 +25822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1840218098
 PolygonCollider2D:
@@ -25924,6 +25952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1840933900
 PolygonCollider2D:
@@ -26581,7 +26610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 21.6
+  roundTime: 47.4
   player: {fileID: 752657967}
   stone: {fileID: 460362475}
   timeTitle: {fileID: 1154907027}
@@ -27283,6 +27312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &1923696581
 PolygonCollider2D:
@@ -28005,6 +28035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &2018076654
 PolygonCollider2D:
@@ -28333,6 +28364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 0}
+  resultShower: {fileID: 0}
   enemyAnimator: {fileID: 0}
 --- !u!60 &2029583740
 PolygonCollider2D:
