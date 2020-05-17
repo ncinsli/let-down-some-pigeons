@@ -3934,7 +3934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820552166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.66, y: 3.83, z: 7.36}
+  m_LocalPosition: {x: 13.66, y: 3.83, z: 1.1}
   m_LocalScale: {x: 2.0049536, y: 2.0049531, z: 2.0049531}
   m_Children: []
   m_Father: {fileID: 1098508723}
@@ -7783,7 +7783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 6.2
+  roundTime: 5
   player: {fileID: 1909150008}
   stone: {fileID: 659521174}
   timeTitle: {fileID: 1828548595}
@@ -8135,7 +8135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703305404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.28, y: 4.59, z: 3.54}
+  m_LocalPosition: {x: 27.28, y: 4.59, z: 1.7}
   m_LocalScale: {x: -1.3474147, y: 1.3474147, z: 1.3474147}
   m_Children: []
   m_Father: {fileID: 1098508723}
@@ -9864,7 +9864,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887367545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.1, y: 3, z: 3.54}
+  m_LocalPosition: {x: -9.1, y: 3, z: 1.8}
   m_LocalScale: {x: -1.0576253, y: 1.0576253, z: 1.0576253}
   m_Children: []
   m_Father: {fileID: 1098508723}

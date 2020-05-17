@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11652,7 +11652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901356381}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.094283, y: -2.254447, z: -1.4921875}
+  m_LocalPosition: {x: 8.094283, y: -2.254447, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 713899840}
@@ -20448,7 +20448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 64.3
+  roundTime: 15
   player: {fileID: 1711639330}
   stone: {fileID: 68729660}
   timeTitle: {fileID: 1603527949}
@@ -26912,7 +26912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060298351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.2, y: 2.9, z: 1.21}
+  m_LocalPosition: {x: 10.2, y: 2.9, z: 0.4}
   m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
   m_Children: []
   m_Father: {fileID: 195692140}
