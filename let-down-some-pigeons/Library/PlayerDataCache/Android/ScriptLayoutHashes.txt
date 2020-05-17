@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/kbely/OneDrive/Рабочий стол/build/1.42 rev 6.apk
+C:/Users/kbely/OneDrive/Рабочий стол/build/1.42 rev 7.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Level 1.unity
@@ -14,6 +14,8 @@ Assets/Scenes/Level 8.unity
 Assets/Scenes/Level 9.unity
 Assets/Scenes/Level 10.unity
 Assets/Scenes/Level 11.unity
+Assets/Scenes/Level 12.unity
+Assets/Scenes/Level 13.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
