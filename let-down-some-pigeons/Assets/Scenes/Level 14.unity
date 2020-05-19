@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19310,6 +19310,7 @@ GameObject:
   - component: {fileID: 879487860}
   - component: {fileID: 879487859}
   - component: {fileID: 879487858}
+  - component: {fileID: 879487861}
   m_Layer: 0
   m_Name: environment_32
   m_TagString: Untagged
@@ -19435,6 +19436,21 @@ Transform:
   m_Father: {fileID: 313545472}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &879487861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879487857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1626057250}
+  resultShower: {fileID: 1944542687}
+  enemyAnimator: {fileID: 1625189554}
 --- !u!1001 &886065424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44963,6 +44979,7 @@ GameObject:
   - component: {fileID: 1887601211}
   - component: {fileID: 1887601210}
   - component: {fileID: 1887601209}
+  - component: {fileID: 1887601212}
   m_Layer: 0
   m_Name: environment_18
   m_TagString: Untagged
@@ -45075,6 +45092,21 @@ Transform:
   m_Father: {fileID: 313545472}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1887601212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887601208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1626057250}
+  resultShower: {fileID: 1944542687}
+  enemyAnimator: {fileID: 1625189554}
 --- !u!1 &1888928048
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,6 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour{
     
     private Animator playerAnimator;
-    
     public MoveObjects objectMover; //MoveObjects компонент в геймконтроллере
 
     private void Start(){
@@ -18,7 +17,7 @@ public class PlayerAnimation : MonoBehaviour{
     private void FixedUpdate(){
         if (!objectMover.isMoving && !objectMover.isFlying)
             playerAnimator.SetInteger("AnimationId", 0);
-        else if (!objectMover.isFlying) 
+        if (!objectMover.isFlying && objectMover.isMoving) 
             playerAnimator.SetInteger("AnimationId", 1);
     }
 

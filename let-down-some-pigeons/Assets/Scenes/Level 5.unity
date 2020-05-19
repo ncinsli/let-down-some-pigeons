@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20505,7 +20505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 10
+  roundTime: 16.2
   player: {fileID: 1711639330}
   stone: {fileID: 68729660}
   timeTitle: {fileID: 1603527949}
@@ -22113,6 +22113,7 @@ GameObject:
   - component: {fileID: 1707466206}
   - component: {fileID: 1707466205}
   - component: {fileID: 1707466207}
+  - component: {fileID: 1707466208}
   m_Layer: 0
   m_Name: environment_23
   m_TagString: Untagged
@@ -22177,7 +22178,7 @@ Transform:
   m_GameObject: {fileID: 1707466204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.604266, y: 10.87, z: 0}
-  m_LocalScale: {x: 1.5106635, y: 1.275, z: 1.275}
+  m_LocalScale: {x: 1.5106635, y: 1.3248047, z: 1.275}
   m_Children: []
   m_Father: {fileID: 1660210179}
   m_RootOrder: 22
@@ -22197,6 +22198,22 @@ MonoBehaviour:
   playerAnimator: {fileID: 1711639333}
   resultShower: {fileID: 1592437220}
   enemyAnimator: {fileID: 1825357484}
+--- !u!111 &1707466208
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707466204}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 0968b30d867fbda4ea0a968ec6d29e83, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 0968b30d867fbda4ea0a968ec6d29e83, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1711490001
 GameObject:
   m_ObjectHideFlags: 0

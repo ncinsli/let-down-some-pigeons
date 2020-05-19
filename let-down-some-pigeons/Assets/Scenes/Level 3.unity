@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8654,7 +8654,6 @@ GameObject:
   - component: {fileID: 1512596919}
   - component: {fileID: 1512596920}
   - component: {fileID: 1512596922}
-  - component: {fileID: 1512596923}
   - component: {fileID: 1512596921}
   m_Layer: 0
   m_Name: environment_24 (2)
@@ -8774,21 +8773,6 @@ PolygonCollider2D:
       - {x: 0.71223193, y: -0.63535297}
       - {x: 0.7731108, y: -0.5744741}
       - {x: 0.7731108, y: -0.45271626}
---- !u!114 &1512596923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1512596918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 1184803628}
-  resultShower: {fileID: 1753143800}
-  enemyAnimator: {fileID: 1360182609}
 --- !u!1 &1525890496
 GameObject:
   m_ObjectHideFlags: 0
@@ -9935,7 +9919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 7
+  roundTime: 4.1
   player: {fileID: 1184803625}
   stone: {fileID: 801088481}
   timeTitle: {fileID: 1737579157}
@@ -11823,7 +11807,6 @@ GameObject:
   - component: {fileID: 2119947987}
   - component: {fileID: 2119947988}
   - component: {fileID: 2119947990}
-  - component: {fileID: 2119947991}
   - component: {fileID: 2119947989}
   m_Layer: 0
   m_Name: environment_24 (1)
@@ -11943,21 +11926,6 @@ PolygonCollider2D:
       - {x: 0.71223193, y: -0.63535297}
       - {x: 0.7731108, y: -0.5744741}
       - {x: 0.7731108, y: -0.45271626}
---- !u!114 &2119947991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119947986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 1184803628}
-  resultShower: {fileID: 1753143800}
-  enemyAnimator: {fileID: 1360182609}
 --- !u!1001 &2139867069
 PrefabInstance:
   m_ObjectHideFlags: 0

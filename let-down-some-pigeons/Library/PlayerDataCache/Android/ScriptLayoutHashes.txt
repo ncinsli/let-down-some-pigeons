@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/kbely/OneDrive/Рабочий стол/build/1.42 rev 7.apk
+C:/Users/ncinsli/Desktop/1.6.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Level 1.unity

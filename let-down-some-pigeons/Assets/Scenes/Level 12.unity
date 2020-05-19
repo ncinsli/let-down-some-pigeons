@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1062,9 +1062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &111963144
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2318,9 +2318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &153073017
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3903,9 +3903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &239068576
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4485,9 +4485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &249128596
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5724,9 +5724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &303780946
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5956,9 +5956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &309174474
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6280,9 +6280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &328852865
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6937,6 +6937,7 @@ GameObject:
   - component: {fileID: 365794455}
   - component: {fileID: 365794454}
   - component: {fileID: 365794453}
+  - component: {fileID: 365794456}
   m_Layer: 0
   m_Name: environment_32 (4)
   m_TagString: Untagged
@@ -7062,6 +7063,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365794456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365794452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &370339312
 GameObject:
   m_ObjectHideFlags: 0
@@ -7972,9 +7988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &415392794
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8145,9 +8161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &423810577
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9850,9 +9866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &507198855
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10653,9 +10669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &551666009
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11056,9 +11072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &579880107
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12724,9 +12740,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &646813206
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14212,6 +14228,7 @@ GameObject:
   - component: {fileID: 721461151}
   - component: {fileID: 721461150}
   - component: {fileID: 721461149}
+  - component: {fileID: 721461152}
   m_Layer: 0
   m_Name: environment_32
   m_TagString: Untagged
@@ -14337,6 +14354,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &721461152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721461148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1001 &728014104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16048,9 +16080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &803616513
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17288,9 +17320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &869365552
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18203,9 +18235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &894714544
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18333,9 +18365,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &895277411
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18725,6 +18757,7 @@ GameObject:
   - component: {fileID: 900865851}
   - component: {fileID: 900865850}
   - component: {fileID: 900865849}
+  - component: {fileID: 900865852}
   m_Layer: 0
   m_Name: environment_18 (1)
   m_TagString: Untagged
@@ -18837,6 +18870,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &900865852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900865848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &903372059
 GameObject:
   m_ObjectHideFlags: 0
@@ -18927,6 +18975,7 @@ GameObject:
   - component: {fileID: 909108118}
   - component: {fileID: 909108117}
   - component: {fileID: 909108116}
+  - component: {fileID: 909108119}
   m_Layer: 0
   m_Name: environment_32 (3)
   m_TagString: Untagged
@@ -19052,6 +19101,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909108119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909108115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &909681492
 GameObject:
   m_ObjectHideFlags: 0
@@ -19083,9 +19147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &909681494
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -20511,9 +20575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &993968326
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -20967,9 +21031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1005771727
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -23119,9 +23183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1141523045
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -23448,9 +23512,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1146527909
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -23844,9 +23908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1165129268
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -24053,9 +24117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1170297474
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -24369,9 +24433,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1187507951
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25007,9 +25071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1228431026
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25426,6 +25490,7 @@ GameObject:
   - component: {fileID: 1258178802}
   - component: {fileID: 1258178801}
   - component: {fileID: 1258178800}
+  - component: {fileID: 1258178803}
   m_Layer: 0
   m_Name: environment_32 (1)
   m_TagString: Untagged
@@ -25551,6 +25616,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258178803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258178799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &1258400099
 GameObject:
   m_ObjectHideFlags: 0
@@ -26452,6 +26532,7 @@ GameObject:
   - component: {fileID: 1298509194}
   - component: {fileID: 1298509193}
   - component: {fileID: 1298509192}
+  - component: {fileID: 1298509195}
   m_Layer: 0
   m_Name: environment_32 (2)
   m_TagString: Untagged
@@ -26577,6 +26658,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298509195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298509191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &1300517698
 GameObject:
   m_ObjectHideFlags: 0
@@ -26868,9 +26964,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1301282493
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -27156,9 +27252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1318486909
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -27365,9 +27461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1350968777
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -28902,9 +28998,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1475551202
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -31589,9 +31685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1629981808
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -33218,9 +33314,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1700901811
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -34252,6 +34348,7 @@ GameObject:
   - component: {fileID: 1767940907}
   - component: {fileID: 1767940906}
   - component: {fileID: 1767940905}
+  - component: {fileID: 1767940908}
   m_Layer: 0
   m_Name: environment_18
   m_TagString: Untagged
@@ -34364,6 +34461,21 @@ Transform:
   m_Father: {fileID: 415392796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767940908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767940904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!1 &1768307166
 GameObject:
   m_ObjectHideFlags: 0
@@ -34468,9 +34580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1769826505
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -34937,9 +35049,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1781107316
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -36048,9 +36160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &1824550138
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -39775,9 +39887,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &2029246221
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40433,9 +40545,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1add57a23bd35e448b663e3d04f892df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  resultShower: {fileID: 0}
-  enemyAnimator: {fileID: 0}
+  playerAnimator: {fileID: 247160990}
+  resultShower: {fileID: 891904364}
+  enemyAnimator: {fileID: 1151997885}
 --- !u!60 &2058244123
 PolygonCollider2D:
   m_ObjectHideFlags: 0
