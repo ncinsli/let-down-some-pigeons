@@ -29,11 +29,13 @@ public class OnSelectedTarget : MonoBehaviour{
     }
 
     public void ShowWinResult(){
-        foreach (GameObject obj in resultGameObjectsOnWin) obj.SetActive(true);
+        foreach (GameObject obj in resultGameObjectsOnWin) 
+            if (obj != null) obj.SetActive(true);
     }
 
     public void ShowFailResult(){
-        foreach (GameObject obj in resultGameObjectsOnFail) obj.SetActive(true);
+        foreach (GameObject obj in resultGameObjectsOnFail)
+            if (obj != null) obj.SetActive(true);
     }
 
     private void FixedUpdate(){

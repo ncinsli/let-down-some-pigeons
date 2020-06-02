@@ -12,7 +12,7 @@ public class RoundHandler : MonoBehaviour{
     public GameObject player;   
     public GameObject stone; //Наш камень
     public RoundInfoOutput timeTitle;
-    
+    public GameObject[] fastMenuElements;
     private float axis; //Показывает, куда повёрнут игрок;
     private MoveObjects movingController; //Для принудительной остановки персонажа
     private Rigidbody2D playerRigidbody;
@@ -39,5 +39,13 @@ public class RoundHandler : MonoBehaviour{
         }
     }
 
+    public void FastMenuOpen(){
+        foreach(GameObject obj in fastMenuElements) if (obj != null) obj.SetActive(true);
+        Time.timeScale = 0f;
+    }
+    public void FastMenuClose(){ 
+        foreach(GameObject obj in fastMenuElements) if (obj != null) obj.SetActive(false);
+        Time.timeScale = 1f;
+    }
     
 }

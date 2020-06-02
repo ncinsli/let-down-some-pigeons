@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\FollowObjects.cs" />
      <Compile Include="Assets\Scripts\MenuManagement\SceneControl.cs" />
      <Compile Include="Assets\Scripts\MoveObjects.cs" />
+     <Compile Include="Assets\Scripts\PlatformPhysEffect.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\Round control\During Round\OnRoundEnded.cs" />
      <Compile Include="Assets\Scripts\Round control\During Round\OnSelectedTarget.cs" />
