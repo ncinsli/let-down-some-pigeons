@@ -18,7 +18,6 @@ public class Spike : MonoBehaviour{
     private void ShowFailResultAdapter(){
         Debug.Log("Starting function ShowFailResultAdapter...");
         resultShower.ShowFailResult();
-        Destroy(gameObject);
     }
 
 

@@ -55,18 +55,42 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\(LEGACY)LevelGenerating\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\FollowObjects.cs" />
+     <Compile Include="Assets\Scripts\MenuManagement\LevelButtonManager.cs" />
+     <Compile Include="Assets\Scripts\MenuManagement\LevelMenuScroller.cs" />
+     <Compile Include="Assets\Scripts\MenuManagement\LightController.cs" />
      <Compile Include="Assets\Scripts\MenuManagement\SceneControl.cs" />
+     <Compile Include="Assets\Scripts\MenuManagement\TransparencyController.cs" />
      <Compile Include="Assets\Scripts\MoveObjects.cs" />
-     <Compile Include="Assets\Scripts\PlatformPhysEffect.cs" />
+     <Compile Include="Assets\Scripts\PlatformWeight.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\Round control\During Round\OnRoundEnded.cs" />
      <Compile Include="Assets\Scripts\Round control\During Round\OnSelectedTarget.cs" />
      <Compile Include="Assets\Scripts\Round control\During Round\RoundHandler.cs" />
      <Compile Include="Assets\Scripts\Round control\Pointer.cs" />
      <Compile Include="Assets\Scripts\Round control\StoneScript.cs" />
+     <Compile Include="Assets\Scripts\Round control\Tools\MaskPropsApplicator.cs" />
      <Compile Include="Assets\Scripts\Round control\Tools\ResultShower.cs" />
      <Compile Include="Assets\Scripts\Round control\Tools\RoundInfoOutput.cs" />
+     <Compile Include="Assets\Scripts\Round control\Tools\ScriptableObjects prefabs\MaskProperties.cs" />
      <Compile Include="Assets\Scripts\Spike.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/let down some pigeons/let-down-some-pigeons/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
