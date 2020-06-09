@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -42,6 +43,7 @@ public class OnRoundEnded : MonoBehaviour{
     }
 
     public void onRoundEnded(){
+        Debug.Log("ONROUNDENDED");
         playerMover.isMoving = false;
         playerMover.isFlying = false;
 
@@ -50,9 +52,10 @@ public class OnRoundEnded : MonoBehaviour{
         DisableButtons(buttonsToDisable);
         foreach (GameObject obj in buttonsToEnable) obj.SetActive(true);
         
-        titles[1].SetText("Время истекло");
-        titles[2].SetText(""); //Подпись к секундам уходит, когда время иссекает 
-
+        if (!titles.Any(i => i == null)){
+            titles[1].SetText("Время истекло");
+            titles[2].SetText(""); //Подпись к секундам уходит, когда время иссекает 
+        }
     }
     
 }

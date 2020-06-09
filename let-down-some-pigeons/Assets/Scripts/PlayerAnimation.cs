@@ -15,10 +15,12 @@ public class PlayerAnimation : MonoBehaviour{
     }
 
     private void FixedUpdate(){
-        if (!objectMover.isMoving && !objectMover.isFlying)
-            playerAnimator.SetInteger("AnimationId", 0);
-        if (!objectMover.isFlying && objectMover.isMoving) 
-            playerAnimator.SetInteger("AnimationId", 1);
+        if (playerAnimator.GetInteger("AnimationId") < 3){
+            if (!objectMover.isMoving && !objectMover.isFlying)
+                playerAnimator.SetInteger("AnimationId", 0);
+            if (!objectMover.isFlying && objectMover.isMoving) 
+                playerAnimator.SetInteger("AnimationId", 1);
+        }
     }
 
     public void StartFlyingAnimation(){

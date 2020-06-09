@@ -7284,6 +7284,7 @@ MonoBehaviour:
   player: {fileID: 1708293409}
   stone: {fileID: 1999289831}
   timeTitle: {fileID: 1896922426}
+  fastMenuElements: []
 --- !u!114 &1289845348
 MonoBehaviour:
   m_ObjectHideFlags: 0

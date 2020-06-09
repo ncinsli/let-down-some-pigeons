@@ -323,6 +323,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 739052124}
   - {fileID: 150006635}
   - {fileID: 791235742}
   - {fileID: 773913562}
@@ -339,7 +340,6 @@ RectTransform:
   - {fileID: 1147795538}
   - {fileID: 1230699864}
   - {fileID: 1358231105}
-  - {fileID: 739052124}
   - {fileID: 562248590}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1319,6 +1319,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &42587333
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2111,6 +2112,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &82839798
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2557,6 +2559,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &97574739
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2792,6 +2795,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &106548997
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2922,6 +2926,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &111512764
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3712,6 +3717,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &130607547
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4028,6 +4034,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &134655544
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4365,6 +4372,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &147258259
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4493,7 +4501,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4675,6 +4683,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &151277335
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5096,6 +5105,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &156973143
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5226,6 +5236,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &163514834
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5755,6 +5766,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &180855445
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7238,7 +7250,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7824,6 +7836,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!1 &251581413
 GameObject:
   m_ObjectHideFlags: 0
@@ -7858,6 +7871,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &251581415
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8093,6 +8107,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &259291896
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8431,6 +8446,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &268671521
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8852,6 +8868,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &273779915
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9163,6 +9180,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &283129680
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9767,6 +9785,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &292179821
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9963,6 +9982,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &303038251
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10093,6 +10113,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &304919474
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10299,7 +10320,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11225,6 +11246,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &338615712
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11592,6 +11614,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &361746694
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12275,6 +12298,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &387666274
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12507,6 +12531,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &396969614
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12716,6 +12741,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &401282359
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12925,6 +12951,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &407576035
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13292,6 +13319,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &414985493
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13888,6 +13916,144 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 439602849}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &442990253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442990254}
+  - component: {fileID: 442990258}
+  - component: {fileID: 442990257}
+  - component: {fileID: 442990256}
+  - component: {fileID: 442990255}
+  m_Layer: 5
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &442990254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442990253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562248590}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -24.679993, y: 23.200012}
+  m_SizeDelta: {x: 66.66, y: 64.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &442990255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442990253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 442990256}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 442990258}
+        m_MethodName: LoadSceneClassic
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Settings
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &442990256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442990253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300008, guid: 15611fdff9cdda44a953493f045037dd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &442990257
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442990253}
+  m_CullTransparentMesh: 0
+--- !u!114 &442990258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442990253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1d3cb6f29a6ba47872f3e4387bf564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSaver: {fileID: 0}
 --- !u!1 &446860495
 GameObject:
   m_ObjectHideFlags: 0
@@ -14169,6 +14335,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &456253817
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14952,6 +15119,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &504482224
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15263,6 +15431,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &512100569
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15556,6 +15725,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &529917861
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16148,6 +16318,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &548294751
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16278,6 +16449,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &552526422
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16588,6 +16760,7 @@ RectTransform:
   - {fileID: 214635557}
   - {fileID: 538365782}
   - {fileID: 1589300168}
+  - {fileID: 442990254}
   m_Father: {fileID: 13771499}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16951,6 +17124,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &569344729
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17081,6 +17255,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &572226674
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17652,6 +17827,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &590298778
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18213,6 +18389,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &618646196
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18422,6 +18599,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &629918417
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18552,6 +18730,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &633357208
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18682,6 +18861,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &637472353
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -19433,6 +19613,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &658587604
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -19563,6 +19744,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &661699992
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -20009,6 +20191,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &675677558
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -20917,6 +21100,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &712904253
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -21047,6 +21231,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &714059502
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -21256,6 +21441,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &724868100
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -21517,7 +21703,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21663,6 +21849,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!1 &739052123
 GameObject:
   m_ObjectHideFlags: 0
@@ -21694,7 +21881,7 @@ RectTransform:
   m_LocalScale: {x: 1.0030833, y: 1.0030833, z: 1.0030833}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 16
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -21900,6 +22087,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &749298908
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -22030,6 +22218,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &752509807
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -22657,6 +22846,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &771523071
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -22785,7 +22975,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -23641,7 +23831,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24139,6 +24329,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &808317119
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -24345,7 +24536,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24472,6 +24663,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &819336772
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25772,6 +25964,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &857911898
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25941,8 +26134,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861589705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.54229, y: -3.036447, z: -4.9921875}
-  m_LocalScale: {x: 1.525, y: 1.525, z: 1.525}
+  m_LocalPosition: {x: 69.744, y: -3.306, z: -4.9921875}
+  m_LocalScale: {x: 1.172725, y: 1.2291499, z: 1.525}
   m_Children: []
   m_Father: {fileID: 914705211}
   m_RootOrder: 140
@@ -26096,6 +26289,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &864031231
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -26325,7 +26519,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -26418,6 +26612,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &871427533
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -27075,10 +27270,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 887863637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63cc7de11c6a334499d07d7273ca04d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 10c38752e97acfb42aff3b91d40f63d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maskPropertiesFile: {fileID: 11400000, guid: ecacb2b4715f8524b89f2f641c77d86b, type: 2}
 --- !u!212 &887863640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27240,6 +27434,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &889909206
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -27449,6 +27644,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &892373277
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -27658,6 +27854,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &899760507
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -28357,6 +28554,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &911775187
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -29472,6 +29670,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &938168616
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -29911,6 +30110,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &944173911
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -30156,6 +30356,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &945238221
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -30365,6 +30566,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &947425850
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -30602,6 +30804,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &951965818
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -31264,6 +31467,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &971051016
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -31394,6 +31598,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &972301674
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -32267,6 +32472,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1032230317
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -32394,7 +32600,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32928,6 +33134,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1061461129
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -34025,6 +34232,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1091181079
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -34313,6 +34521,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1102284556
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -34657,7 +34866,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34936,6 +35145,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1125949419
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -35657,6 +35867,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1136260152
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -35787,6 +35998,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1136402753
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -36198,7 +36410,7 @@ RectTransform:
   - {fileID: 656591839}
   - {fileID: 1393343827}
   m_Father: {fileID: 13771499}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -36240,6 +36452,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147795537}
   m_CullTransparentMesh: 0
+--- !u!1 &1150434081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1150434083}
+  - component: {fileID: 1150434082}
+  m_Layer: 0
+  m_Name: DeathSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1150434082
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150434081}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a08e74679ef35874ca0890bda3c67776, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1150434083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150434081}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160782420
 GameObject:
   m_ObjectHideFlags: 0
@@ -36274,6 +36613,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1160782422
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -36483,6 +36823,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1161166512
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -36613,6 +36954,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1162320258
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -37046,6 +37388,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1172760403
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -37943,7 +38286,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -38151,7 +38494,7 @@ RectTransform:
   m_Children:
   - {fileID: 530272317}
   m_Father: {fileID: 13771499}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -38227,6 +38570,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1231467193
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -38481,6 +38825,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1237942564
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -38611,6 +38956,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1237955304
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -38820,6 +39166,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1246508055
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -38950,6 +39297,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1255699506
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -39503,6 +39851,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1287395920
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40159,6 +40508,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1304968633
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40447,6 +40797,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1318221923
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40684,6 +41035,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1319599348
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40814,6 +41166,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1319760049
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40944,6 +41297,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1320436157
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -41263,6 +41617,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1339553845
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -41834,6 +42189,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1349295589
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -42212,6 +42568,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1355368575
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -42421,6 +42778,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1357263216
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -42547,7 +42905,7 @@ RectTransform:
   m_LocalScale: {x: 1.0030833, y: 1.0030833, z: 1.0030833}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -42623,6 +42981,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1359759526
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -42753,6 +43112,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1364168568
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -43596,6 +43956,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1393600385
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -44027,6 +44388,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1407674632
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -44233,7 +44595,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -44959,6 +45321,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1423287212
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -45185,6 +45548,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1432524743
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -45834,6 +46198,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1462423189
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -46952,6 +47317,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1508311564
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -47161,6 +47527,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1514963767
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -47495,6 +47862,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1518131831
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -47885,6 +48253,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1527494461
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -48252,6 +48621,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1535956144
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -48619,6 +48989,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1555295087
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -48851,6 +49222,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1561015849
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -48981,6 +49353,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1563492089
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -49111,6 +49484,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1575117942
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -50195,6 +50569,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1633716778
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -50483,6 +50858,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1665104250
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -50720,6 +51096,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1674871679
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -51146,6 +51523,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1680820690
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -51355,6 +51733,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1687596074
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -51694,6 +52073,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1701484398
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -51903,6 +52283,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1704815837
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -52611,6 +52992,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1725348138
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -53333,6 +53715,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1744943626
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -53611,6 +53994,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1751090009
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -53741,6 +54125,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1760254030
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -53871,6 +54256,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1761726471
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -55044,6 +55430,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1841068737
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -55276,6 +55663,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1844564843
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -55554,6 +55942,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1853510215
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -55768,6 +56157,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1857811114
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -56775,6 +57165,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1894436690
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -56984,6 +57375,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1898428795
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -57430,6 +57822,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1910376812
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -58231,6 +58624,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1927149121
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -58489,6 +58883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1d3cb6f29a6ba47872f3e4387bf564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelSaver: {fileID: 11400000, guid: eae4a6d1e1c49dc47a45f0829c3c3ffd, type: 2}
 --- !u!114 &1932736723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58858,6 +59253,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1937259884
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -59615,6 +60011,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1952450320
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -59926,6 +60323,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1960445323
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -60441,6 +60839,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &1992534143
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -60673,6 +61072,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2000014922
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -61055,7 +61455,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 13771499}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -61617,6 +62017,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2027944250
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -62497,6 +62898,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2047748553
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -62627,6 +63029,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2055993158
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -63277,6 +63680,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2075802146
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -63407,6 +63811,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2076702505
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -63858,6 +64263,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2100190296
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -64465,6 +64871,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 1920739546}
   resultShower: {fileID: 1932736721}
   enemyAnimator: {fileID: 1481069285}
+  soundOnDeath: {fileID: 1150434082}
 --- !u!60 &2139135104
 PolygonCollider2D:
   m_ObjectHideFlags: 0

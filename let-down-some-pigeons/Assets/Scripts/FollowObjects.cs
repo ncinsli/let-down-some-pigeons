@@ -9,7 +9,7 @@ public class FollowObjects : MonoBehaviour{
     
     [Header("Настройки следования за объектом")]
     public Transform targetTransform; //Сам объект
-    [Range(0.001f,1f)]public float delta = 0.85f; //Дельта
+    [Range(0.001f,1f)] public float delta = 0.85f; //Дельта
     public bool useX = true;
     public bool useY = true;
     public float minHeight = 3.76f;

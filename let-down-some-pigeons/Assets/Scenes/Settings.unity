@@ -122,9 +122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9161549}
   - component: {fileID: 9161552}
+  - component: {fileID: 9161553}
   - component: {fileID: 9161551}
   - component: {fileID: 9161550}
-  - component: {fileID: 9161553}
   m_Layer: 5
   m_Name: Scrollbar
   m_TagString: Untagged
@@ -200,7 +200,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 9161553}
-        m_MethodName: OnValueChangedCustom
+        m_MethodName: OnValueCustom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -254,11 +254,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9161548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b74c4d219a5f38f499645f2c6550c9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 89b2fa160bd448c4d972da393ae000c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   infoViewer: {fileID: 209408892}
-  maskProperties: {fileID: 11400000, guid: ecacb2b4715f8524b89f2f641c77d86b, type: 2}
 --- !u!1 &50994413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839597625}
   - component: {fileID: 839597629}
+  - component: {fileID: 839597630}
   - component: {fileID: 839597628}
   - component: {fileID: 839597627}
   - component: {fileID: 839597626}
@@ -1195,8 +1195,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66148169d073e646ae9259d537b29f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   infoViewer: {fileID: 1547730066}
-  maskProperties: {fileID: 11400000, guid: ecacb2b4715f8524b89f2f641c77d86b, type: 2}
+  maskProperties: {fileID: 0}
+  scrollbar: {fileID: 0}
 --- !u!114 &839597627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,8 +1265,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 839597626}
-        m_MethodName: OnValueChangedCustom
+      - m_Target: {fileID: 839597630}
+        m_MethodName: OnValueCustom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1288,6 +1311,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839597624}
   m_CullTransparentMesh: 0
+--- !u!114 &839597630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839597624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36a4bc263fa5864ba1ce10daf796f90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoViewer: {fileID: 1547730066}
 --- !u!1 &846386034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +2565,17 @@ MonoBehaviour:
           m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ecacb2b4715f8524b89f2f641c77d86b, type: 2}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1414422131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2576,6 +2623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1d3cb6f29a6ba47872f3e4387bf564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelSaver: {fileID: 11400000, guid: eae4a6d1e1c49dc47a45f0829c3c3ffd, type: 2}
 --- !u!1 &1436155119
 GameObject:
   m_ObjectHideFlags: 0
