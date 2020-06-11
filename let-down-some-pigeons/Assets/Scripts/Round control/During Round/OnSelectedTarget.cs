@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Monetization;
-using UnityEngine.EventSystems;
 
 public class OnSelectedTarget : MonoBehaviour{
     
@@ -21,13 +19,12 @@ public class OnSelectedTarget : MonoBehaviour{
     private float axis;
     private float pointTime;
     private bool didShowResult = false;
-
+    private const string API_KEY = "2bdf8df5fe1fbdd232ed156facd896d037204ff6e4b722de";
     private void Start(){
         stoneScript = stone.GetComponent<StoneScript>();
         stoneSpriteRenderer = stone.GetComponent<SpriteRenderer>();
         stoneRigidbody = stone.GetComponent<Rigidbody2D>();
         roundEnd = GetComponent<OnRoundEnded>();
-        if (Monetization.isSupported) Monetization.Initialize("3645109", false);
         stoneSpeed = pointer.speed;
     }
 
@@ -36,21 +33,9 @@ public class OnSelectedTarget : MonoBehaviour{
             if (obj != null) obj.SetActive(true);
     }
 
-    //Весь код с рекламы я нагло стырил у флатинго
     private void ShowAd(){
         Debug.Log("Showing ad");
-        if (Monetization.IsReady("video")){
-            ShowAdCallbacks options = new ShowAdCallbacks();
-            options.finishCallback = AdResultShower;
-            ShowAdPlacementContent ad = Monetization.GetPlacementContent("video") as ShowAdPlacementContent;
-            ad.Show(options);
-        }
     }
-
-    private void AdResultShower(ShowResult result){
-        if (result == ShowResult.Skipped){} //На всякий пожарный
-    }
-    
 
     public void ShowFailResult(){
         Debug.Log($"Now fails are {PlayerPrefs.GetInt("Fails") + 1}");
@@ -71,7 +56,7 @@ public class OnSelectedTarget : MonoBehaviour{
         
         stoneSpriteRenderer.enabled = true;
         stoneRigidbody.bodyType = RigidbodyType2D.Dynamic;
-        stone.transform.position = player.transform.position + Vector3.right *1.1f* axis;
+        stone.transform.position = player.transform.position + Vector3.right * 1.1f * axis;
         stoneScript.Shoot(pointer.transform.position - player.transform.position);
     }
 }
