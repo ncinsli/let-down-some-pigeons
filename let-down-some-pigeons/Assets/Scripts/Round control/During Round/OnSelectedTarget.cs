@@ -20,6 +20,7 @@ public class OnSelectedTarget : MonoBehaviour{
     private float pointTime;
     private bool didShowResult = false;
     private const string API_KEY = "2bdf8df5fe1fbdd232ed156facd896d037204ff6e4b722de";
+    
     private void Start(){
         stoneScript = stone.GetComponent<StoneScript>();
         stoneSpriteRenderer = stone.GetComponent<SpriteRenderer>();
