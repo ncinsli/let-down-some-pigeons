@@ -62,7 +62,7 @@
   </packages>
   <files />
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a,x86" />
+    <setting name="androidAbis" value="armeabi-v7a" />
     <setting name="bundleId" value="com.FiftyFiveDev.ldsp" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />

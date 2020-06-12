@@ -45,7 +45,7 @@ allprojects {
     }
 }
 // Android Resolver Repos End
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 **APPLY_PLUGINS**
 
 dependencies {
@@ -120,6 +120,7 @@ android {
       exclude ('/lib/armeabi/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')
+      exclude ('/lib/x86/*' + '*')
       exclude ('/lib/x86_64/*' + '*')
   }
 }
@@ -134,10 +135,11 @@ android {
     }
 
     defaultConfig {
+consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
         minSdkVersion **MINSDKVERSION**
         targetSdkVersion **TARGETSDKVERSION**
-        multiDexEnabled true //Без неё игра не соберется
-        applicationId '**APPLICATIONID**'
+        //multiDexEnabled true //Я на 2019, поэтому не нужно
+        
         ndk {
             abiFilters **ABIFILTERS**
         }
@@ -165,17 +167,7 @@ android {
             useProguard **PROGUARD_RELEASE**
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-unity.txt'**USER_PROGUARD****SIGNCONFIG**
         }
-    }**PACKAGING_OPTIONS****SPLITS**
+    }**PACKAGING_OPTIONS**
 **BUILT_APK_LOCATION**
-    bundle {
-        language {
-            enableSplit = false
-        }
-        density {
-            enableSplit = false
-        }
-        abi {
-            enableSplit = true
-        }
-    }
-}**SPLITS_VERSION_CODE****REPOSITORIES****SOURCE_BUILD_SETUP**
+    
+}**REPOSITORIES****SOURCE_BUILD_SETUP**

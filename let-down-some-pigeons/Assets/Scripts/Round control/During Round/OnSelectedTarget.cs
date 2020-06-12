@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AppodealAds.Unity.Api;
+using AppodealAds.Unity.Common;
 
 public class OnSelectedTarget : MonoBehaviour{
     
@@ -36,6 +38,7 @@ public class OnSelectedTarget : MonoBehaviour{
 
     private void ShowAd(){
         Debug.Log("Showing ad");
+        Appodeal.show(Appodeal.INTERSTITIAL);
     }
 
     public void ShowFailResult(){
@@ -59,5 +62,9 @@ public class OnSelectedTarget : MonoBehaviour{
         stoneRigidbody.bodyType = RigidbodyType2D.Dynamic;
         stone.transform.position = player.transform.position + Vector3.right * 1.1f * axis;
         stoneScript.Shoot(pointer.transform.position - player.transform.position);
+    }
+
+    private void OnApplicationQuit(){
+        PlayerPrefs.SetInt("Fails", 0);
     }
 }

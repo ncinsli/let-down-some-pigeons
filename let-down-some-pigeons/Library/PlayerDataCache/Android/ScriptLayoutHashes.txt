@@ -1,11 +1,11 @@
 Android
 PlayerPath?
-C:/Users/ncinsli/Desktop/1.87 pre-pre-pre-release3.apk
+C:/Users/ncinsli/Desktop/1.87 pre-pre-pre-release 5-.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
-Assets/Scenes/Settings.unity
-Assets/Scenes/LevelManager.unity
 Assets/Scenes/Tutorial.unity
+Assets/Scenes/LevelManager.unity
+Assets/Scenes/Settings.unity
 Assets/Scenes/Level 0.unity
 Assets/Scenes/Level 1.unity
 Assets/Scenes/Level 2.unity
@@ -20,6 +20,9 @@ Assets/Scenes/Level 10.unity
 Assets/Scenes/Level 11.unity
 Assets/Scenes/Level 12.unity
 Assets/Scenes/Level 13.unity
+Assets/Scenes/Level 14.unity
+Assets/Scenes/Level 15.unity
+Assets/Scenes/Debug.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
