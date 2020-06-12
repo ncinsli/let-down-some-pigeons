@@ -8,7 +8,7 @@ using AppodealAds.Unity.Common;
 public class SceneControl : MonoBehaviour{
     
     public LevelSaver levelSaver;
-    private const string API_KEY = "2bdf8df5fe1fbdd232ed156facd896d037204ff6e4b722de";
+    private const string API_KEY = "2b85497c65763a9ae8cea144f5e272625d0b5c1cdadb09b7";
 
     public void Start(){
         Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO, true);

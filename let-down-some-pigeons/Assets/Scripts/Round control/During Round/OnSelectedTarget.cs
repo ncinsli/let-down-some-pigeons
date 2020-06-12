@@ -21,7 +21,7 @@ public class OnSelectedTarget : MonoBehaviour{
     private float axis;
     private float pointTime;
     private bool didShowResult = false;
-    private const string API_KEY = "2bdf8df5fe1fbdd232ed156facd896d037204ff6e4b722de";
+    private const string API_KEY = "2b85497c65763a9ae8cea144f5e272625d0b5c1cdadb09b7";
     
     private void Start(){
         stoneScript = stone.GetComponent<StoneScript>();
