@@ -14,7 +14,7 @@ public class PlayerAnimation : MonoBehaviour{
         playerAnimator = GetComponent<Animator>();
     }
 
-    private void FixedUpdate(){
+    private void Update(){
         if (playerAnimator.GetInteger("AnimationId") < 3){
             if (!objectMover.isMoving && !objectMover.isFlying)
                 playerAnimator.SetInteger("AnimationId", 0);

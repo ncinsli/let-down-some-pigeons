@@ -11,7 +11,12 @@ public class SceneControl : MonoBehaviour{
     private const string API_KEY = "2b85497c65763a9ae8cea144f5e272625d0b5c1cdadb09b7";
 
     public void Start(){
-        Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO, true);
+        Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO | Appodeal.BANNER, true);
+        string n = SceneManager.GetActiveScene().name;
+        if (n == "Menu" || n == "Settings") 
+            Appodeal.show(Appodeal.BANNER);
+        else Appodeal.hide(Appodeal.BANNER);
+        Appodeal.disableWriteExternalStoragePermissionCheck();
     }
 
     ///<summary> Эта штука грузит сцену классическим способом, а конкретнее, без всяких эфеектов </summary>

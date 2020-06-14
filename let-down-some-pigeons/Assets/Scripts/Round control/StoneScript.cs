@@ -36,8 +36,8 @@ public class StoneScript : MonoBehaviour{
     }
 
     public void Shoot(Vector2 force){
-        rigidbody.AddForce(force * 1200f * Mathf.Pow(Time.deltaTime,1f) * (player.localScale.x / Mathf.Abs(player.localScale.x)));
-        rigidbody.gravityScale = Time.deltaTime * 1f;
+        rigidbody.AddForce(force * 2400f * Mathf.Pow(Time.deltaTime,1f) * (player.localScale.x / Mathf.Abs(player.localScale.x)));
+        rigidbody.gravityScale = Time.deltaTime * 2f;
         Debug.Log(force);
         didShoot = true;
         Time.timeScale = 1f;

@@ -32,8 +32,10 @@ public class OnSelectedTarget : MonoBehaviour{
     }
 
     public void ShowWinResult(){
+        PlayerPrefs.SetInt("Wins", PlayerPrefs.GetInt("Wins") + 1);
         foreach (GameObject obj in resultGameObjectsOnWin) 
             if (obj != null) obj.SetActive(true);
+        if(PlayerPrefs.GetInt("Wins") % 4 == 0) Invoke("ShowAd", 0.3f);
     }
 
     private void ShowAd(){
@@ -66,5 +68,6 @@ public class OnSelectedTarget : MonoBehaviour{
 
     private void OnApplicationQuit(){
         PlayerPrefs.SetInt("Fails", 0);
+        PlayerPrefs.SetInt("Wins", 0);
     }
 }
