@@ -59,8 +59,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Debug.unity:
     - Class: 1
@@ -1995,7 +1993,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13838}
     - Class: 114
-      Script: {instanceID: 28010}
+      Script: {instanceID: 147638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2861,4 +2859,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 14.unity
   - Assets/Scenes/Level 15.unity
   - Assets/Scenes/Debug.unity
-  playerPath: C:/Users/ncinsli/Desktop/let down some pigeons pre-pre-release - 2.2.apk
+  playerPath: "C:/Users/kbely/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
+    \u0441\u0442\u043E\u043B/\u0438\u0433\u0440\u0430/\u0413\u043E\u043B\u0443\u0431\u0438\u043D\u0430\u044F
+    \u0431\u043E\u0439\u043D\u044F/\u0411\u0438\u043B\u0434\u044B/Pre releas 0.1.apk"
