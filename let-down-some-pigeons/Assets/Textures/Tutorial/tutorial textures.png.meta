@@ -1,34 +1,19 @@
 fileFormatVersion: 2
-guid: 01bef25570c0ac94eb13527c68d3bcea
+guid: 4cbe6b53c00d94143874421a60720cd3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: tutorial textures_0
+      213: -3307297878979887986
+    second: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_0"
   - first:
-      213: 21300002
-    second: tutorial textures_1
+      213: -1730433341070815642
+    second: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_1"
   - first:
-      213: 21300004
-    second: tutorial textures_2
+      213: 1829503333704629972
+    second: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_2"
   - first:
-      213: 21300006
-    second: tutorial textures_3
-  - first:
-      213: 21300008
-    second: tutorial textures_4
-  - first:
-      213: 21300010
-    second: tutorial textures_5
-  - first:
-      213: 21300012
-    second: tutorial textures_6
-  - first:
-      213: 21300014
-    second: tutorial textures_7
-  - first:
-      213: 21300016
-    second: tutorial textures_8
+      213: -3010478942639158326
+    second: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_3"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -84,7 +69,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -97,7 +82,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -109,7 +94,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -121,165 +118,60 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutorial textures_0
+      name: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 1831
-        width: 2578
-        height: 333
+        y: 1605
+        width: 2097
+        height: 546
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5286f480505806e4bb036c15bf4b7b2d
-      internalID: 21300000
+      spriteID: e8c30051a1e1a12d0800000000000000
+      internalID: -3307297878979887986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutorial textures_1
+      name: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_1"
       rect:
         serializedVersion: 2
         x: 0
-        y: 1455
-        width: 2153
+        y: 1189
+        width: 2131
         height: 248
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb38713c98708a4dae303b99ab529b6
-      internalID: 21300002
+      spriteID: 66e4bf56b044cf7e0800000000000000
+      internalID: -1730433341070815642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutorial textures_2
+      name: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_2"
       rect:
         serializedVersion: 2
         x: 0
-        y: 1108
-        width: 1908
-        height: 236
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7917c9f65fcbadd45b139760e3c7cf67
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tutorial textures_3
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 0
-        width: 63
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 993c582b2a8b4a5498e144eece7bf4e4
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tutorial textures_4
-      rect:
-        serializedVersion: 2
-        x: 501
-        y: 0
-        width: 62
-        height: 560
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bf0c8da301f2ee44961d2baa025613a
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tutorial textures_5
-      rect:
-        serializedVersion: 2
-        x: 708
-        y: 422
-        width: 227
-        height: 158
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18c641f8547d902488f5914bd742cb4f
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tutorial textures_6
-      rect:
-        serializedVersion: 2
-        x: 1495
-        y: 0
-        width: 966
-        height: 871
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eb2ee98c591c3e4b81b9ec64c26186b
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tutorial textures_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 866
-        width: 960
-        height: 130
+        y: 643
+        width: 1996
+        height: 383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51bab8b4b565ab54896e545addc58d35
-      internalID: 21300014
+      spriteID: 4de7bd0c693b36910800000000000000
+      internalID: 1829503333704629972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutorial textures_8
+      name: "tutorial textures \u2014 \u043A\u043E\u043F\u0438\u044F \u2014 \u043A\u043E\u043F\u0438\u044F_3"
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 788
-        width: 236
-        height: 242
+        x: 0
+        y: 348
+        width: 1147
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2af9fc2ae08147e46acc7f1baeb7d5f0
-      internalID: 21300016
+      spriteID: acb03341a51a836d0800000000000000
+      internalID: -3010478942639158326
       vertices: []
       indices: 
       edges: []
@@ -317,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7730bc9018984d741bac86dbae3cf7f6
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

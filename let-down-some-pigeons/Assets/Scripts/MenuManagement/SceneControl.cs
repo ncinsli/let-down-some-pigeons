@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,9 +10,11 @@ public class SceneControl : MonoBehaviour{
     
     public LevelSaver levelSaver;
     private const string API_KEY = "2b85497c65763a9ae8cea144f5e272625d0b5c1cdadb09b7";
+    private bool consentValue;
 
     public void Start(){
-        Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO | Appodeal.BANNER, true);
+        consentValue = Convert.ToBoolean(PlayerPrefs.GetInt("Consent"));
+        Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO | Appodeal.BANNER, consentValue);
         string n = SceneManager.GetActiveScene().name;
         if (n == "Menu" || n == "Settings") 
             Appodeal.show(Appodeal.BANNER);
@@ -21,17 +24,21 @@ public class SceneControl : MonoBehaviour{
 
     ///<summary> Эта штука грузит сцену классическим способом, а конкретнее, без всяких эфеектов </summary>
     public void LoadSceneClassic(string sceneName){
+        PlayerPrefs.SetString("LastScene", SceneManager.GetActiveScene().name);
         if (levelSaver.CheckByName(sceneName) > levelSaver.CheckByName(SceneManager.GetActiveScene().name))
             PlayerPrefs.SetInt("SceneIndex", levelSaver.CheckByName(sceneName));
+        PlayerPrefs.Save(); 
         SceneManager.LoadScene(sceneName); 
         Debug.Log($"SceneINDEX mod: {PlayerPrefs.GetInt("SceneIndex")}     BUILD INDEX: {SceneManager.GetActiveScene().buildIndex}");
         Time.timeScale = 1f; //Для функционирования меню
     }
-    //private void OnApplicationQuit() {
-        ///<Iseditor> скрипт, чтобы нормально дебажить
-      //  if (Application.isEditor){
-        //    Debug.Log("SET SCENESAVE TO 0");
-          //  PlayerPrefs.SetInt("SceneIndex", 0);    
-       // }
-    //}
+
+    public void LoadLastScene(){
+        string name = PlayerPrefs.GetString("LastScene");
+        LoadSceneClassic(name);
+    }
+
+    private void OnApplicationQuit() {
+        PlayerPrefs.Save(); 
+    }
 }
