@@ -38,7 +38,10 @@ public class SceneControl : MonoBehaviour{
         LoadSceneClassic(name);
     }
 
+    private void OnApplicationFocus() => Debug.Log($"Biggest Level detected: {PlayerPrefs.GetInt("SceneIndex")}");
+    //Честно, не знаю. Но это вроде помогает с сохранением
     private void OnApplicationQuit() {
         PlayerPrefs.Save(); 
+        Debug.Log($"Biggest Level detected: {PlayerPrefs.GetInt("SceneIndex")}");
     }
 }

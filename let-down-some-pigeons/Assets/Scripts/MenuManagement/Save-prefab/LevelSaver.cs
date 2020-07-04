@@ -12,13 +12,14 @@ public class LevelSaver : ScriptableObject {
     private void Start() => BiggestLevelIndex = PlayerPrefs.GetInt("BiggestLevelIndex");
 
     public int CheckByName(string name){
-        int a = -1; //Я уже не знаю, как это работает
+        int a = -1; //Я уже не знаю, как это работает   
         if (name.Contains("Level")) int.TryParse(name.Substring(name.Length - 2), out a);
         if (a > BiggestLevelIndex) BiggestLevelIndex = a;
         return a;
     }
 
     private void OnApplicationQuit(){
+        Debug.Log($"Biggest level index is {BiggestLevelIndex}");
         PlayerPrefs.SetInt("BiggestLevelIndex", BiggestLevelIndex);
     }
     
