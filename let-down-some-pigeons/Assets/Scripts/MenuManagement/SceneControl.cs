@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using AppodealAds.Unity.Api;
 using AppodealAds.Unity.Common;
+using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour{
     
@@ -14,23 +14,31 @@ public class SceneControl : MonoBehaviour{
 
     public void Start(){
         consentValue = Convert.ToBoolean(PlayerPrefs.GetInt("Consent"));
+#if UNITY_ANDROID && !UNITY_EDITOR        
         Appodeal.initialize(API_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO | Appodeal.BANNER, consentValue);
         string n = SceneManager.GetActiveScene().name;
         if (n == "Menu" || n == "Settings") 
             Appodeal.show(Appodeal.BANNER);
         else Appodeal.hide(Appodeal.BANNER);
         Appodeal.disableWriteExternalStoragePermissionCheck();
+#endif
     }
 
     ///<summary> Эта штука грузит сцену классическим способом, а конкретнее, без всяких эфеектов </summary>
     public void LoadSceneClassic(string sceneName){
-        PlayerPrefs.SetString("LastScene", SceneManager.GetActiveScene().name);
-        if (levelSaver.CheckByName(sceneName) > levelSaver.CheckByName(SceneManager.GetActiveScene().name))
-            PlayerPrefs.SetInt("SceneIndex", levelSaver.CheckByName(sceneName));
-        PlayerPrefs.Save(); 
-        SceneManager.LoadScene(sceneName); 
-        Debug.Log($"SceneINDEX mod: {PlayerPrefs.GetInt("SceneIndex")}     BUILD INDEX: {SceneManager.GetActiveScene().buildIndex}");
-        Time.timeScale = 1f; //Для функционирования меню
+        if (sceneName != "LevelManager"){
+            PlayerPrefs.SetString("LastScene", SceneManager.GetActiveScene().name);
+            if (levelSaver.CheckByName(sceneName) > levelSaver.CheckByName(SceneManager.GetActiveScene().name))
+                PlayerPrefs.SetInt("SceneIndex", levelSaver.CheckByName(sceneName));
+            SceneManager.LoadScene(sceneName); 
+        //  Debug.Log($"SceneINDEX mod: {PlayerPrefs.GetInt("SceneIndex")}     BUILD INDEX: {SceneManager.GetActiveScene().buildIndex}");
+            Time.timeScale = 1f; //Для функционирования меню
+        }
+        else{
+            PlayerPrefs.SetString("LastScene", SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(sceneName); 
+            Time.timeScale = 1f; //Для функционирования меню
+        }
     }
 
     public void LoadLastScene(){
@@ -38,10 +46,10 @@ public class SceneControl : MonoBehaviour{
         LoadSceneClassic(name);
     }
 
-    private void OnApplicationFocus() => Debug.Log($"Biggest Level detected: {PlayerPrefs.GetInt("SceneIndex")}");
+   // private void OnApplicationFocus(bool focus) => Debug.Log($"Biggest Level detected: {PlayerPrefs.GetInt("SceneIndex")}");
     //Честно, не знаю. Но это вроде помогает с сохранением
-    private void OnApplicationQuit() {
+    private void OnDisable() {
+        Debug.Log("On disable callback -> " + PlayerPrefs.GetInt("SceneIndex").ToString());
         PlayerPrefs.Save(); 
-        Debug.Log($"Biggest Level detected: {PlayerPrefs.GetInt("SceneIndex")}");
     }
 }

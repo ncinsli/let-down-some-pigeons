@@ -9,17 +9,21 @@ public class LevelSaver : ScriptableObject {
     public string BiggestLevelName;
     public int BiggestLevelIndex;
 
-    private void Start() => BiggestLevelIndex = PlayerPrefs.GetInt("BiggestLevelIndex");
-
+    public void OnEnable(){
+        BiggestLevelIndex = PlayerPrefs.GetInt("BiggestLevelIndex");
+        //Debug.Log($"Biggest level index is {PlayerPrefs.GetInt("BiggestLevelIndex")}");
+        Debug.Log("SCRIPTABLE OBJECT STARTS");
+    }
     public int CheckByName(string name){
         int a = -1; //Я уже не знаю, как это работает   
         if (name.Contains("Level")) int.TryParse(name.Substring(name.Length - 2), out a);
         if (a > BiggestLevelIndex) BiggestLevelIndex = a;
+        PlayerPrefs.SetInt("BiggestLevelIndex", BiggestLevelIndex);
         return a;
     }
 
-    private void OnApplicationQuit(){
-        Debug.Log($"Biggest level index is {BiggestLevelIndex}");
+    private void OnDisable(){
+        //Debug.Log($"Biggest level index is {PlayerPrefs.GetInt("BiggestLevelIndex")}");
         PlayerPrefs.SetInt("BiggestLevelIndex", BiggestLevelIndex);
     }
     

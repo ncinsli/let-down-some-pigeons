@@ -17,7 +17,7 @@ public class LevelButtonManager : MonoBehaviour{
         button = GetComponent<Button>();
         child = transform.GetChild(0).gameObject;
         ///<WORKIMPORTANT!> Число -3 тут - количество сцен помимо самих уровней
-        if (SceneIndex > levelSaver.BiggestLevelIndex && SceneIndex > 1) //3- сцены помимо уровней
+        if (SceneIndex > PlayerPrefs.GetInt("SceneIndex") && SceneIndex > 1) //3- сцены помимо уровней
             DeactivateUIElement(new GameObject[] {gameObject, child});
     }
 
