@@ -3168,26 +3168,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BGMask
       objectReference: {fileID: 0}
-    - target: {fileID: 3299567875232742378, guid: db8097ac3c19ac842bc2364272210110,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.68147624
-      objectReference: {fileID: 0}
-    - target: {fileID: 3299567875232742378, guid: db8097ac3c19ac842bc2364272210110,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.9245283
-      objectReference: {fileID: 0}
-    - target: {fileID: 3299567875232742378, guid: db8097ac3c19ac842bc2364272210110,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.6759523
-      objectReference: {fileID: 0}
-    - target: {fileID: 3299567875232742378, guid: db8097ac3c19ac842bc2364272210110,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.11372549
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db8097ac3c19ac842bc2364272210110, type: 3}
 --- !u!4 &416637435 stripped
