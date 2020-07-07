@@ -818,7 +818,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &15418435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +1845,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &38148133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,7 +1945,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &39917437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,7 +2276,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &47084897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,7 +2326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &47084900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2462,7 +2477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &58697039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,7 +2527,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &58697042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3315,7 +3336,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &81392676
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,7 +3517,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &83328988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4045,7 +4072,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &93827308
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4298,7 +4328,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &116534581
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4396,7 +4429,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &120456741
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4677,7 +4713,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &134771834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5043,7 +5082,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &144183778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5324,7 +5366,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &151499475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5980,7 +6025,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &178732358
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6078,7 +6126,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &180079812
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6226,7 +6277,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &187262771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6354,7 +6408,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &189128680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6452,7 +6509,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &190457358
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7044,7 +7104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &204468525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7404,7 +7467,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &212033864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7552,7 +7618,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &218593088
 GameObject:
   m_ObjectHideFlags: 0
@@ -8020,7 +8089,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &236658518
 GameObject:
   m_ObjectHideFlags: 0
@@ -8117,7 +8189,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &240110258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8269,7 +8344,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &243927966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8978,7 +9056,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &260390797
 GameObject:
   m_ObjectHideFlags: 0
@@ -9443,7 +9524,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &262674804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9724,7 +9808,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &263433506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9852,7 +9939,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &267862775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10186,7 +10276,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &275292251
 GameObject:
   m_ObjectHideFlags: 0
@@ -10283,7 +10376,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &285331344
 GameObject:
   m_ObjectHideFlags: 0
@@ -10730,7 +10826,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &302855079
 GameObject:
   m_ObjectHideFlags: 0
@@ -10777,7 +10876,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &302855082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10925,7 +11027,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &307233066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11600,7 +11705,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &313545468
 GameObject:
   m_ObjectHideFlags: 0
@@ -12045,7 +12153,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &319234582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12227,7 +12338,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &334084808
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12539,7 +12653,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &350704124
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12637,7 +12754,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &353864071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12966,7 +13086,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &359747671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13064,7 +13187,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &363044081
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13573,7 +13699,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &385051987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13938,7 +14067,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &401420243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15198,7 +15330,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &440757131
 GameObject:
   m_ObjectHideFlags: 0
@@ -15245,7 +15380,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &440757134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15617,7 +15755,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &449654845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15846,7 +15987,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &461032271
 GameObject:
   m_ObjectHideFlags: 0
@@ -15893,7 +16037,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &461032274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16076,7 +16223,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &473751174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16174,7 +16324,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &473783195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16322,7 +16475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &488255558
 GameObject:
   m_ObjectHideFlags: 0
@@ -16419,7 +16575,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &491926844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16582,7 +16741,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &492496896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16782,7 +16944,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &514145838
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17253,7 +17418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &520894130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17351,7 +17519,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &521867838
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17765,7 +17936,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &547013751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17863,7 +18037,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &550263940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17961,7 +18138,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &557396036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18161,7 +18341,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &562118592
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18651,7 +18834,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &581606534
 GameObject:
   m_ObjectHideFlags: 0
@@ -18779,7 +18965,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &583682850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19133,7 +19322,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &601538844
 GameObject:
   m_ObjectHideFlags: 0
@@ -19180,7 +19372,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &601538847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19819,7 +20014,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &630952743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20001,7 +20199,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &641658469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20295,7 +20496,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &651472155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20443,7 +20647,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &662829294
 GameObject:
   m_ObjectHideFlags: 0
@@ -20540,7 +20747,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &666498964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21035,7 +21245,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &685080012
 GameObject:
   m_ObjectHideFlags: 0
@@ -21082,7 +21295,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &685080015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21180,7 +21396,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &689155653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21278,7 +21497,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &689324805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21426,7 +21648,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &692808111
 GameObject:
   m_ObjectHideFlags: 0
@@ -21604,7 +21829,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &702706596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22042,7 +22270,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &716347441
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22140,7 +22371,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &719924857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22288,7 +22522,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &738291001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22545,7 +22782,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &748816174
 GameObject:
   m_ObjectHideFlags: 0
@@ -22911,7 +23151,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &754133936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23140,7 +23383,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &767391332
 GameObject:
   m_ObjectHideFlags: 0
@@ -23320,7 +23566,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &768679510
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23418,7 +23667,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &776025865
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23516,7 +23768,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &789497362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23614,7 +23869,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &789590577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23864,7 +24122,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &823148608
 GameObject:
   m_ObjectHideFlags: 0
@@ -24044,7 +24305,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &825514280
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24511,7 +24775,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &846108460
 GameObject:
   m_ObjectHideFlags: 0
@@ -24639,7 +24906,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &846433210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25315,7 +25585,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &858328157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26002,7 +26275,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &879487857
 GameObject:
   m_ObjectHideFlags: 0
@@ -26361,7 +26637,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &888868355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26840,7 +27119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &906173761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27039,7 +27321,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &917361412
 GameObject:
   m_ObjectHideFlags: 0
@@ -27657,7 +27942,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &925521683
 GameObject:
   m_ObjectHideFlags: 0
@@ -28101,7 +28389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &938154562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28830,7 +29121,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &957296277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29471,7 +29765,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &976076202
 GameObject:
   m_ObjectHideFlags: 0
@@ -29987,7 +30284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &984364306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30085,7 +30385,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &990473024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30611,7 +30914,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1008072118
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30857,7 +31163,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1018373174
 GameObject:
   m_ObjectHideFlags: 0
@@ -31042,7 +31351,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1021480757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31273,7 +31585,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1022957392
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31452,7 +31767,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1044497372
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32973,7 +33291,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1096956079
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33327,7 +33648,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1105831078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33794,7 +34118,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1127739817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33942,7 +34269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1131780196
 GameObject:
   m_ObjectHideFlags: 0
@@ -34676,7 +35006,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1157146294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34824,7 +35157,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1164391905
 GameObject:
   m_ObjectHideFlags: 0
@@ -35070,7 +35406,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1167803298
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35218,7 +35557,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1171613151
 GameObject:
   m_ObjectHideFlags: 0
@@ -36011,7 +36353,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1190614915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36109,7 +36454,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1193349594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36410,7 +36758,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1198196286
 GameObject:
   m_ObjectHideFlags: 0
@@ -36507,7 +36858,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1204813241
 GameObject:
   m_ObjectHideFlags: 0
@@ -36554,7 +36908,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1204813244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36652,7 +37009,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1205072656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37076,7 +37436,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1219108501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37945,7 +38308,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1229993057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38470,7 +38836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1241430711
 GameObject:
   m_ObjectHideFlags: 0
@@ -38517,7 +38886,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1241430714
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38827,7 +39199,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1252666532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39320,7 +39695,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1271756399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40423,7 +40801,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1324151958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40585,7 +40966,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1324920437
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42600,7 +42984,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1366613027
 GameObject:
   m_ObjectHideFlags: 0
@@ -42647,7 +43034,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1366613030
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42999,7 +43389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1378746178
 GameObject:
   m_ObjectHideFlags: 0
@@ -43443,7 +43836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1394715724
 GameObject:
   m_ObjectHideFlags: 0
@@ -43540,7 +43936,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1396648391
 GameObject:
   m_ObjectHideFlags: 0
@@ -43767,7 +44166,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1405213646
 GameObject:
   m_ObjectHideFlags: 0
@@ -44028,7 +44430,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1408498804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44176,7 +44581,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1416186652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44470,7 +44878,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1436912632
 GameObject:
   m_ObjectHideFlags: 0
@@ -44567,7 +44978,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1449401056
 GameObject:
   m_ObjectHideFlags: 0
@@ -44664,7 +45078,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1451295075
 GameObject:
   m_ObjectHideFlags: 0
@@ -44894,7 +45311,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1459377179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45093,7 +45513,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1466111299
 GameObject:
   m_ObjectHideFlags: 0
@@ -45190,7 +45613,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1472567449
 GameObject:
   m_ObjectHideFlags: 0
@@ -45237,7 +45663,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1472567452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45670,7 +46099,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1491396456
 GameObject:
   m_ObjectHideFlags: 0
@@ -45767,7 +46199,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1491428315
 GameObject:
   m_ObjectHideFlags: 0
@@ -46253,7 +46688,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1503682714
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47034,7 +47472,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1534661575
 GameObject:
   m_ObjectHideFlags: 0
@@ -47131,7 +47572,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1538037240
 GameObject:
   m_ObjectHideFlags: 0
@@ -47228,7 +47672,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1540994274
 GameObject:
   m_ObjectHideFlags: 0
@@ -47275,7 +47722,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1540994277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47454,7 +47904,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1542653307
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47944,7 +48397,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1555883308
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48417,7 +48873,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1578346676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48732,7 +49191,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1583646717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48830,7 +49292,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1590211382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49012,7 +49477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1593922173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49160,7 +49628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1610292317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50103,7 +50574,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1634554278
 GameObject:
   m_ObjectHideFlags: 0
@@ -50333,7 +50807,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1647141013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50933,7 +51410,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1664022035
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51081,7 +51561,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1665297401
 GameObject:
   m_ObjectHideFlags: 0
@@ -51128,7 +51611,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1665297404
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51226,7 +51712,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1665738087
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51374,7 +51863,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1677806536
 GameObject:
   m_ObjectHideFlags: 0
@@ -51471,7 +51963,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1679909799
 GameObject:
   m_ObjectHideFlags: 0
@@ -51842,7 +52337,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1688308439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52054,7 +52552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1694626232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52390,7 +52891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1702079341
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52609,7 +53113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1705425356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52809,7 +53316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1711946806
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52957,7 +53467,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1717375596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53263,7 +53776,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1730551343
 GameObject:
   m_ObjectHideFlags: 0
@@ -53310,7 +53826,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1730551346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53652,7 +54171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1742357725
 GameObject:
   m_ObjectHideFlags: 0
@@ -53827,7 +54349,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1744464583
 GameObject:
   m_ObjectHideFlags: 0
@@ -53874,7 +54399,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1744464586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54022,7 +54550,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1745594859
 GameObject:
   m_ObjectHideFlags: 0
@@ -54382,7 +54913,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1768383064
 GameObject:
   m_ObjectHideFlags: 0
@@ -54831,7 +55365,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1776571359
 GameObject:
   m_ObjectHideFlags: 0
@@ -55203,7 +55740,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1801351740
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55351,7 +55891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1804915175
 GameObject:
   m_ObjectHideFlags: 0
@@ -55448,7 +55991,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1807784161
 GameObject:
   m_ObjectHideFlags: 0
@@ -55679,7 +56225,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1808959777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55777,7 +56326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1813900924
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56027,7 +56579,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1815950306
 GameObject:
   m_ObjectHideFlags: 0
@@ -56124,7 +56679,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1817908313
 GameObject:
   m_ObjectHideFlags: 0
@@ -56221,7 +56779,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1827150091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56425,7 +56986,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1836734596
 GameObject:
   m_ObjectHideFlags: 0
@@ -56522,7 +57086,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1841145529
 GameObject:
   m_ObjectHideFlags: 0
@@ -56854,7 +57421,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1846471635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57135,7 +57705,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1863697869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57790,7 +58363,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1881205800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58204,7 +58780,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1887601208
 GameObject:
   m_ObjectHideFlags: 0
@@ -58709,7 +59288,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1900765305
 GameObject:
   m_ObjectHideFlags: 0
@@ -58889,7 +59471,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1901649552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59037,7 +59622,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1912441397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59213,7 +59801,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1914536945
 GameObject:
   m_ObjectHideFlags: 0
@@ -59310,7 +59901,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &1917853795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60115,7 +60709,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &1935131809
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60381,7 +60978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundStatus: 
-  roundTime: 20
+  roundTime: 15
   player: {fileID: 1626057248}
   stone: {fileID: 1196808994}
   timeTitle: {fileID: 445841436}
@@ -60864,7 +61461,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1987673576
 GameObject:
   m_ObjectHideFlags: 0
@@ -60961,7 +61561,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &1997417678
 GameObject:
   m_ObjectHideFlags: 0
@@ -61058,7 +61661,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1 &2005393908
 GameObject:
   m_ObjectHideFlags: 0
@@ -61615,7 +62221,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &2029617910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61844,7 +62453,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &2039988428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62809,7 +63421,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &2080674903
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62907,7 +63522,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &2085152253
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63227,7 +63845,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &2100398865
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63824,7 +64445,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!1001 &2117846586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64258,7 +64882,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
 --- !u!212 &2132419036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64539,4 +65166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingPower: 0
   movingPower: 0.0055
+  unlockMoving: 0
   moveRandomly: 1
+  useY: 1
+  iterationsMax: 37
